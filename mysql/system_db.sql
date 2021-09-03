@@ -16,7 +16,7 @@ CREATE TABLE `Contacts` (
   `NAME` varchar(255) NOT NULL,
   `SURNAME` varchar(255) NOT NULL,
   `EMAIL` varchar(255) NOT NULL,
-  `PHONENUMBER` varchar(255) NOT NULL
+  `PHONENUMBER` varchar(255) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
