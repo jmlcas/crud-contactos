@@ -25,7 +25,12 @@
             header("Location: ../AddContact.php?error=notvalidemail");
             exit();
         }
-
+        
+        else if (!preg_match("/^[0-9\-\(\) \+]+$/", $uphone)){
+            header("Location: ../EditContact.php?error=notvalidusername");
+            exit();
+        }
+        
         // Prepare query using placeholders (prevent sql injection)
         $sql = "SELECT * FROM Contacts WHERE ID=? OR PHONENUMBER=?;";
         $stmt = mysqli_stmt_init($conn);
