@@ -16,7 +16,7 @@ CREATE TABLE `Contacts` (
   `NAME` varchar(255) NOT NULL,
   `SURNAME` varchar(255) NOT NULL,
   `EMAIL` varchar(255) NOT NULL,
-  `PHONENUMBER` varchar(255) NOT NULL,
+  `PHONENUMBER` varchar(255) NOT NULL
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
@@ -26,8 +26,8 @@ CREATE TABLE `Contacts` (
 
 INSERT INTO `Contacts` (`ID`, `NAME`, `SURNAME`, `EMAIL`, `PHONENUMBER`) VALUES
 (1, 'Alberto', 'Fernández', 'alberto@gmail.com', '791-804-955'),
-(2, 'Antonio', 'Toledo', 'antonio@dominio.com', '791-804-195',),
-(3, 'Claudia', 'Pérez', 'claudia@yahoo.es', '791-804-196',);
+(2, 'Antonio', 'Toledo', 'antonio@dominio.com', '791-804-195'),
+(3, 'Claudia', 'Pérez', 'claudia@yahoo.es', '791-804-196');
 
 
 -- --------------------------------------------------------
