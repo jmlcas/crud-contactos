@@ -25,9 +25,9 @@ CREATE TABLE `Contacts` (
 --
 
 INSERT INTO `Contacts` (`ID`, `NAME`, `SURNAME`, `EMAIL`, `PHONENUMBER`) VALUES
-(1, 'Alberto', 'Fernández', 'alberto@gmail.com', '791-804-955'),
+(1, 'Alberto', 'Lasheras', 'alberto@gmail.com', '791-804-955'),
 (2, 'Antonio', 'Toledo', 'antonio@dominio.com', '791-804-195'),
-(3, 'Claudia', 'Pérez', 'claudia@yahoo.es', '791-804-196');
+(3, 'Claudia', 'Monreal', 'claudia@yahoo.es', '791-804-196');
 
 
 -- --------------------------------------------------------
