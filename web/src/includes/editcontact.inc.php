@@ -44,7 +44,7 @@
         }
     
         // Pass parameters and execute statement 
-        mysqli_stmt_bind_param($stmt, "sssssss", $uname, $usname, $uemail, $uphone, $uid);
+        mysqli_stmt_bind_param($stmt, "sssss", $uname, $usname, $uemail, $uphone, $uid);
         mysqli_stmt_execute($stmt);
     
         if(mysqli_stmt_affected_rows($stmt)){
