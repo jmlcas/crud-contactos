@@ -1,4 +1,4 @@
-FROM php:7.4.22-apache
+FROM php:8.1.6-alpine
 # RUN apt-get update -y && apt-get upgrade -y && apt-get install -y
 RUN chmod -R 775 /var/www/html \
     && docker-php-ext-install mysqli 
