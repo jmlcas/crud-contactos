@@ -1,12 +1,12 @@
 # crud-contactos 
 
-App ver en "localhost:8080"
+App ver en "localhost:8200"
 
 Usuario: User
 
 Contraseña: P4ssw0rd
 
-phpMyAdmin ver en "localhost: 8081"
+phpMyAdmin ver en "localhost: 8080"
 
 
 
