@@ -1,8 +1,5 @@
-version: '3.3'
-
 services:
 
-  #Mysql
   db:
     image: mariadb:10.7
     container_name: system-mysql
@@ -18,7 +15,6 @@ services:
       - ./mysql/data:/var/lib/mysql           
     restart: unless-stopped 
 
-  #phpMyAdmin     
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:5.2
     container_name: system-phpmyadmin
@@ -30,7 +26,6 @@ services:
       - db
     restart: unless-stopped
     
-  #Web Service
   web:
     build: 
       context: ./web/
